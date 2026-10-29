@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研选题严格作业版"
+  short_description: "逐期保存科研选题作业与过程文件，文献检索由用户执行，支持三策略分析及断点续做"
+  default_prompt: "使用 $research-topic-course 按课程作业开展科研选题；检索文献时给我任务单，保存每期过程文件并在材料齐备后继续。"
+policy:
+  allow_implicit_invocation: true
